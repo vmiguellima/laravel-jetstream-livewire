@@ -5,7 +5,10 @@ It also provide some help setting/using JetStream
 
 ## Instalation
 
-1. Setup environment
+1. Install composer dependencies:
+    ```composer install```
+    <br>
+2. Setup environment
     1. Create **.env** file
     ```cp .env.example .env```
     <br>
@@ -13,11 +16,7 @@ It also provide some help setting/using JetStream
     ```php artisan key:generate```
     <br>
 
-
-1. Install composer dependencies:
-    ```composer install```
-    <br>
-2. Install npm dependencies and build dev:
+3. Install npm dependencies and build dev:
     ```npm install && npm run dev```
 
 ### Database setup
