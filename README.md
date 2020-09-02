@@ -12,7 +12,8 @@ It also provide some help setting/using JetStream
     1. Create **.env** file
     ```cp .env.example .env```
     <br>
-    2. Generate a new key:
+    
+    2. Generate a new key
     ```php artisan key:generate```
     <br>
 
